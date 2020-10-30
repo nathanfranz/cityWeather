@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+      <Folder Include="Models" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <ProjectReference Include="..\WeatherSearch.DL\WeatherSearch.DL.csproj" />
+      <ProjectReference Include="..\WeatherSearch.Models\WeatherSearch.Models.csproj" />
+    </ItemGroup>
+
+</Project>

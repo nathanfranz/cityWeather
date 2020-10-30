@@ -1,0 +1,25 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h1>City Weather</h1>
+
+<form asp-controller="Home" asp-action="Index">
+    <p>
+        City: <input type="text" name="City">
+        <input type="submit" value="Search" />
+    </p>
+</form>
+
+<h3>@ViewData["NoWeatherData"]</h3>
+
+<h3>@ViewData["CityWeather"]</h3>
+
+<p>@ViewData["Temperature"]</p>
+<p>@ViewData["Humidity"]</p>
+<p>@ViewData["WindSpeed"]</p>
+<p>@ViewData["WindDirection"]</p>
