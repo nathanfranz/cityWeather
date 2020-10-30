@@ -1,2 +1,2 @@
-# cityWeather
-Simple Web App for retrieving city weather
+# City Weather
+Simple Web App for retrieving city weather.
